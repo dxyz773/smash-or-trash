@@ -5,15 +5,15 @@
 // TITLE:
 
 <header>
-<h1>Smash or Trash</h1>
-slogan? (h3/h4)
+<img> With logo
 </header>
 
 // TOP 5:
 
 <section>
 
-<figure>Top 5 movie imgs (src)</figure>
+<figure>
+<img> for Top 5</figure>
 
 </section>
 
@@ -21,16 +21,15 @@ slogan? (h3/h4)
 
 <main>
 
- <figure>img (src)</figure>
+ <figure>
+ <img>img (src)
 
-<figcaption>movie name (one of h2 or h3)</figcaption>
+<figcaption>movie name </figcaption>
+</figure>
 
-<p>release year</p>
-
-<details>
-<summary>Description</summary>
-
-Movie details
+<ul>
+<li></li>
+</ul>
 
 </details >
 
