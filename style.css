@@ -1,3 +1,62 @@
+
 img {
-  width: 300px;
+  width: 100px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 3px;
+  
+
 }
+
+  
+body {
+  
+  color: #71c2e2;
+  background-color: rgb(27, 22, 22);
+  background-position: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.4em;
+}
+
+  header {
+      font-family: sans-serif;
+      text-align :center;
+      padding-top: 10px;
+  
+  }
+
+  
+
+   form  {
+      text-align : center;
+      margin-top: 20px;
+      scroll-padding-inline-start: 40px;
+      
+     
+  }
+  
+  img.alight-left {
+      float: left;  
+      margin-right: 20px;
+  }
+
+  footer {
+      font-size: 5px 
+      
+      
+  }
+  header .img {
+      width: 500px;
+
+  }
+
+  .text-center {
+      text-align: center;
+  }
+
+  ul {
+      font-family: sans-serif;
+      text-align: horizontal;
+
+  }
+  
