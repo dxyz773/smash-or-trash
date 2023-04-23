@@ -1,0 +1,44 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Avatar",
+            "image": "",
+            "year": 2009,
+            "sales": "$2,923,706,026",
+            "rating": 7.9
+        },
+        {
+            "id": 2,
+            "title": "Avengers: Endgame",
+            "image": "",
+            "year": 2019,
+            "sales": "$2,799,439,100",
+            "rating": 8.4
+        },
+        {
+            "id": 3,
+            "title": "Avatar: The Way of Water",
+            "image": "",
+            "year": 2022,
+            "sales": "$2,316,962,130",
+            "rating": 7.7
+        },
+        {
+            "id": 4,
+            "title": "Titanic",
+            "image": "",
+            "year": 1997,
+            "sales": "$2,263,291,560",
+            "rating": 7.9
+        },
+        {
+            "id": 5,
+            "title": "Star Wars: Episode VII - The Force Awakens",
+            "image": "",
+            "year": 2015,
+            "sales": "$2,071,310,218",
+            "rating": 7.8
+        }
+    ]
+}

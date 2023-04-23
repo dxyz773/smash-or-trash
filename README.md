@@ -1,33 +1,23 @@
-# SMASH OR TRASH
+        Learning goals       
+-Manipulate the DOM to reflect user behavior
 
-## The app where YOU get choose if a movie is a SMASH Hit or needs to be TRASHed
+-Use event listeners to promote user engagement (like/dislike button and submission form)
 
-#
+        
+        Introduction
+-Welcome to SMASH or TRASH where you get a first hand look at the top 5 movies…ever, and get to share whether you think they are SMASH, or need to be TRASHed. If they’re trash, upload your favorite movie and let the public know what you think should be a top 5 movie…ever.
 
-### TOP 5 MOVIES OF ALL TIME BY BOX-OFFICE SALES:
+        
+        What we will be demonstrating:
 
-[Avatar](https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg)
+-Click the movie poster to display movie details //GET
 
-- Release year: 2009
-- Rating: 7.9
+-Double click the like to add a like that persists //PATCH
 
-[Avengers: Endgame](https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg)
+-Double click the dislike to add a dislike that persists  //PATCH
 
-- release year: 2019
-- Rating: 8.4
+-Submits a favorite movie to the page using a form that persists //POST
 
-[Avatar: The Way of Water](https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg)
+-Stretch goal: Adds a comment to a movie //PATCH
 
-- release year: 2022
-- Rating: 7.7
 
-[Titanic](https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg)
-
-- release year: 1997
-- Rating: 7.9
-
-[Star Wars: Episode VII - The Force Awakens](https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg)
-
-- release year: 2015
-- Rating: 7.8
-- sales:
