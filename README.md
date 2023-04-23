@@ -20,9 +20,10 @@
 [Titanic](https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg)
 
 - release year: 1997
+- Rating: 7.9
 
 [Star Wars: Episode VII - The Force Awakens](https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg)
 
 - release year: 2015
-- rating:
+- Rating: 7.8
 - sales:
