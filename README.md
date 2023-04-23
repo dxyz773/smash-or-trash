@@ -1,4 +1,4 @@
-        Learning goals
+        Learning goals       
 -Manipulate the DOM to reflect user behavior
 
 -Use event listeners to promote user engagement (like/dislike button and submission form)
@@ -19,4 +19,5 @@
 -Submits a favorite movie to the page using a form that persists //POST
 
 -Stretch goal: Adds a comment to a movie //PATCH
+
 
