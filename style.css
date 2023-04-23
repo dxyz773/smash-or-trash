@@ -1,62 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-img {
+.container {
+  margin: 30px auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 100px 3fr 1fr;
+}
+/* img {
   width: 100px;
   padding-left: 2px;
   padding-right: 2px;
   border-radius: 3px;
-  
+} */
 
+.top-5 {
+  grid-column: 1;
+  grid-row: 2;
 }
 
-  
 body {
-  
   color: #71c2e2;
   background-color: rgb(27, 22, 22);
   background-position: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.4em;
 }
 
-  header {
-      font-family: sans-serif;
-      text-align :center;
-      padding-top: 10px;
-  
-  }
+header {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  grid-column: 1 / -1;
+}
 
-  
+form {
+  margin-top: 20px;
+  margin-left: 20px;
+  scroll-padding-inline-start: 40px;
+}
 
-   form  {
-      text-align : center;
-      margin-top: 20px;
-      scroll-padding-inline-start: 40px;
-      
-     
-  }
-  
-  img.alight-left {
-      float: left;  
-      margin-right: 20px;
-  }
+#new-movie input {
+  display: inline-block;
+  width: 100px;
+}
+/* img.alight-left {
+  float: left;
+  margin-right: 20px;
+} */
 
-  footer {
-      font-size: 5px 
-      
-      
-  }
-  header .img {
-      width: 500px;
+img {
+  width: 100px;
+}
+img#movie-details-figure {
+  width: 300px;
+  grid-column: 1;
+}
 
-  }
+#movie-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-  .text-center {
-      text-align: center;
-  }
+#list-and-buttons {
+  grid-column: 2;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
-  ul {
-      font-family: sans-serif;
-      text-align: horizontal;
+.buttons {
+  width: 100px;
+}
 
-  }
-  
+#forms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer {
+  font-size: 18px;
+  grid-row: 3;
+  grid-column: 1 / -1;
+}
+
+/* .text-center {
+  text-align: center;
+} */
+
+ul {
+  font-family: sans-serif;
+  text-align: horizontal;
+  list-style: none;
+}

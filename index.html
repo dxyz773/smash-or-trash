@@ -8,54 +8,88 @@
     <title>SMASH OR TRASH</title>
   </head>
   <body>
-    <header class="smash-or-trash">
-      <img src="./movie-images/IMG_1383.jpg" />
-    </header>
-    <section class="top-5">
-      <h2> TOP 5</h2>
-    </section>
-    <main class="movie-details">
-      <h4>User Name</h4>
-      <figure id="movie-details-figure">
+    <div class="container">
+      <header class="smash-or-trash">
+        <h1>SMASH OR TRASH</h1>
+        <!-- <img src="./movie-images/IMG_1383.jpg" /> -->
+      </header>
+      <section class="top-5">
+        <h2>TOP 5</h2>
         <img
-          src="./movie-images/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg"
-          alt=""
+          src="./movie-images/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg"
         />
-        <figcaption id="figure-caption">Star Wars PLACEHOLDER</figcaption>
-      </figure>
-      <ul id="figure-list">
-        <li>Release Year</li>
-        <li>Rating</li>
-        <li>Sales</li>
-      </ul>
-      <button id="smash">Smash</button>
-      <button id="trash">Trash</button>
-
-      <form id="new-movie" action="" method="post">
-        <label for="user-name">User Name</label>
-        <input type="text" name="" id="user-name" placeholder="user name here"/>
-        <label for="movie-image">Movie Image</label>
-        <input type="text" name="" id="movie-image" placeholder="url here" />
-        <label for="movie-title">Title</label>
-        <input type="text" name="" id="movie-title" placeholder="movie title here"/>
-        <label for="release-year">Release Year</label>
-        <input type="text" name="" id="release-year" placeholder="release year here"/>
-        <label for="movie-rating">My movie rating</label>
-        <input type="text" name="" id="movie-rating" placeholder="rating here"/>
-      </form>
-
-      <form id="new-comment-form" action="" method="post">
-        <label for="new-comment">Comment on this film!</label>
-        <textarea name="" id="new-comment" cols="30" rows="10"></textarea>
-      </form>
-    </main>
-    <section>
-      <section class="user-favorites">
-        <h2> USER FAVORITES</h2>
       </section>
-    </section>
-    <footer>
-      <h3>Sources!!!!!</h3>
-    </footer>
+      <main>
+        <div id="movie-details">
+          <h4>User Name</h4>
+          <img
+            src="./movie-images/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg"
+            alt=""
+            id="movie-details-figure"
+          />
+          <div id="list-and-buttons">
+            <ul id="figure-list">
+              <li>Release Year</li>
+              <li>Rating</li>
+              <li>Sales</li>
+            </ul>
+            <div class="buttons">
+              <button id="smash">Smash</button>
+              <span>0</span>
+              <button id="trash">Trash</button>
+              <span>0</span>
+            </div>
+          </div>
+        </div>
+        <div id="forms">
+        <form id="new-movie" action="" method="post">
+          <label for="user-name">User Name:</label>
+          <input
+            type="text"
+            name=""
+            id="user-name"
+            placeholder="user name here"
+          />
+          <label for="movie-image">Movie Image:</label>
+          <input type="text" name="" id="movie-image" placeholder="url here" />
+          <label for="movie-title">Title:</label>
+          <input
+            type="text"
+            name=""
+            id="movie-title"
+            placeholder="movie title here"
+          />
+          <label for="release-year">Release Year:</label>
+          <input
+            type="text"
+            name=""
+            id="release-year"
+            placeholder="release year here"
+          />
+          <label for="movie-rating">My movie rating:</label>
+          <input
+            type="text"
+            name=""
+            id="movie-rating"
+            placeholder="rating here"
+          />
+        </form>
+
+        <form id="new-comment-form" action="" method="post">
+          <label for="new-comment">Comment on this film!</label>
+          <textarea name="" id="new-comment" cols="30" rows="10"></textarea>
+        </form>
+      </main>
+        <section class="user-favorites">
+          <h2>USER FAVORITES</h2>
+          <img
+            src="./movie-images/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
+            alt=""
+          />
+        </section>
+      <footer>
+        <h3>Sources!!!!!</h3>
+      </footer>
+    </div>
   </body>
 </html>
