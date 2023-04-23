@@ -8,65 +8,54 @@
     <title>SMASH OR TRASH</title>
   </head>
   <body>
-    <header>
+    <header class="smash-or-trash">
       <img src="./movie-images/IMG_1383.jpg" />
     </header>
-    <section>
-      <figure>
-        <img
-          src="./movie-images/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg"
-          alt="Titanic movie poster"
-        />
-      </figure>
+    <section class="top-5">
+      <h2> TOP 5</h2>
     </section>
-    <main>
+    <main class="movie-details">
       <h4>User Name</h4>
-      <figure>
+      <figure id="movie-details-figure">
         <img
           src="./movie-images/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg"
           alt=""
         />
-        <figcaption>Star Wars</figcaption>
+        <figcaption id="figure-caption">Star Wars PLACEHOLDER</figcaption>
       </figure>
-      <ul>
+      <ul id="figure-list">
         <li>Release Year</li>
         <li>Rating</li>
         <li>Sales</li>
       </ul>
-      <button>Smash</button>
-      <button>Trash</button>
+      <button id="smash">Smash</button>
+      <button id="trash">Trash</button>
 
-      <form action="" method="post">
-        <label for="">User Name</label>
-        <input
-          type="text"
-          name=""
-          id="user-name"
-          placeholder="user name here"
-        />
-        <label for="">Img</label>
-        <input type="text" name="" id="user-name" placeholder="url here" />
-        <label for="">Title</label>
-        <input type="text" name="" id="user-name" />
-        <label for="">Release Year</label>
-        <input type="text" name="" id="user-name" />
-        <label for="">My movie rating</label>
-        <input type="text" name="" id="user-name" />
+      <form id="new-movie" action="" method="post">
+        <label for="user-name">User Name</label>
+        <input type="text" name="" id="user-name" placeholder="user name here"/>
+        <label for="movie-image">Movie Image</label>
+        <input type="text" name="" id="movie-image" placeholder="url here" />
+        <label for="movie-title">Title</label>
+        <input type="text" name="" id="movie-title" placeholder="movie title here"/>
+        <label for="release-year">Release Year</label>
+        <input type="text" name="" id="release-year" placeholder="release year here"/>
+        <label for="movie-rating">My movie rating</label>
+        <input type="text" name="" id="movie-rating" placeholder="rating here"/>
       </form>
 
-      <form action="" method="post">
-        <label for="">Comment on this film!</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+      <form id="new-comment-form" action="" method="post">
+        <label for="new-comment">Comment on this film!</label>
+        <textarea name="" id="new-comment" cols="30" rows="10"></textarea>
       </form>
     </main>
     <section>
-      <figure>
-        <img
-          src="./movie-images/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg"
-          alt="Titanic movie poster"
-        />
-      </figure>
+      <section class="user-favorites">
+        <h2> USER FAVORITES</h2>
+      </section>
     </section>
-    <footer><h2>Sources!!!!!</h2></footer>
+    <footer>
+      <h3>Sources!!!!!</h3>
+    </footer>
   </body>
 </html>
