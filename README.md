@@ -1,5 +1,9 @@
 # SMASH OR TRASH
 
+## The app where YOU get choose if a movie is a SMASH Hit or needs to be TRASHed
+
+#
+
 ### TOP 5 MOVIES OF ALL TIME BY BOX-OFFICE SALES:
 
 [Avatar](https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg)
