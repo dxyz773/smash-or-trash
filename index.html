@@ -4,58 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
     <title>SMASH OR TRASH</title>
   </head>
   <body>
-    <header class="smash-or-trash">
-      <img src="./movie-images/IMG_1383.jpg" />
-    </header>
-    <section class="top-5">
-      <h2> TOP 5</h2>
-    </section>
-    <main class="movie-details">
-      <h4>User Name</h4>
-      <figure id="movie-details-figure">
+    <div class="container">
+      <header class="smash-or-trash">
+        <h1>SMASH OR TRASH</h1>
+      </header>
+      <section id="top-5">
+        <h2>TOP 5 MOVIES</h2>
         <img
-          src="./movie-images/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg"
-          alt=""
+          src="./movie-images/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
         />
-        <figcaption id="figure-caption">Star Wars PLACEHOLDER</figcaption>
-      </figure>
-      <ul id="figure-list">
-        <li>Release Year</li>
-        <li>Rating</li>
-        <li>Sales</li>
-      </ul>
-      <button id="smash">Smash</button>
-      <button id="trash">Trash</button>
-
-      <form id="new-movie" action="" method="post">
-        <label for="user-name">User Name</label>
-        <input type="text" name="" id="user-name" placeholder="user name here"/>
-        <label for="movie-image">Movie Image</label>
-        <input type="text" name="" id="movie-image" placeholder="url here" />
-        <label for="movie-title">Title</label>
-        <input type="text" name="" id="movie-title" placeholder="movie title here"/>
-        <label for="release-year">Release Year</label>
-        <input type="text" name="" id="release-year" placeholder="release year here"/>
-        <label for="movie-rating">My movie rating</label>
-        <input type="text" name="" id="movie-rating" placeholder="rating here"/>
-      </form>
-
-      <form id="new-comment-form" action="" method="post">
-        <label for="new-comment">Comment on this film!</label>
-        <textarea name="" id="new-comment" cols="30" rows="10"></textarea>
-      </form>
-    </main>
-    <section>
-      <section class="user-favorites">
-        <h2> USER FAVORITES</h2>
+        <img src="./movie-images/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg" alt="">
+        <img src="./movie-images/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg" alt="">
+        <img src="./movie-images/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg" alt="">
+        <img src="./movie-images/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg" alt="">
       </section>
-    </section>
-    <footer>
-      <h3>Sources!!!!!</h3>
-    </footer>
+      <main>
+        <div id="movie-details">
+          <h4>@molly-hollar</h4>
+          <img
+            src="./movie-images/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg"
+            alt=""
+            id="movie-details-img"
+          />
+          <div id="list-and-buttons">
+            <ul id="figure-list">
+              <li id="title">Star Wards</li>
+              <li id="release-year">2003</li>
+              <li id="rating">2</li>
+              <li id="sales">Bajillion</li>
+            </ul>
+            <div class="buttons">
+              <button id="smash"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke= "" id="smash-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+              </svg>
+              </button>
+              <span>0</span>
+              <button id="trash">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="" id="trash-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+              </svg>
+              </button>
+              <span>1</span>
+            </div>
+          </div>
+        </div>
+        <div class="forms">
+        <form id="new-movie-form" action="" method="post">
+          <label for="user-name">User Name:</label>
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+
+          />
+          <label for="movie-image">Movie Image:</label>
+          <input type="text" name="" id="movie-image" />
+          <label for="movie-title">Movie Title:</label>
+          <input
+            type="text"
+            name="movie-title"
+            id="movie-title"
+
+          />
+          <label for="release-year">Release Year:</label>
+          <input
+            type="text"
+            name="release-year"
+            id="release-year"
+
+          />
+          <label for="movie-rating">Movie rating:</label>
+          <input
+            type="text"
+            name="movie-rating"
+            id="movie-rating"
+
+          />
+          <input type="submit" name="submit" id="submit">
+        </form>
+
+        <form id="new-comment-form" action="" method="post">
+          <label for="new-comment">Comment on this film!</label>
+          <textarea name="submit-comment" id="new-comment" cols="30" rows="10"></textarea>
+          <input type="submit" name="submit-comment" id="submit-comment" />
+        </form>
+      </main>
+        <section id="user-favorites">
+          <h2>USER FAV'S</h2>
+
+        </section>
+      <footer>
+        <a  id="footer-link" href="https://www.imdb.com/">IMDB</a>
+      </footer>
+    </div>
   </body>
 </html>
