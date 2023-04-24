@@ -35,10 +35,10 @@
           />
           <div id="list-and-buttons">
             <ul id="figure-list">
-              <li>Title:</li>
-              <li>Release Year:</li>
-              <li>Rating:</li>
-              <li>Sales:</li>
+              <li id="title">Star Wards</li>
+              <li id="release-year">2003</li>
+              <li id="rating">2</li>
+              <li id="sales">Bajillion</li>
             </ul>
             <div class="buttons">
               <button id="smash"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke= "" id="smash-icon">
@@ -63,48 +63,46 @@
             type="text"
             name="user-name"
             id="user-name"
-            placeholder="user name here"
+
           />
           <label for="movie-image">Movie Image:</label>
-          <input type="text" name="" id="movie-image" placeholder="url here" />
+          <input type="text" name="" id="movie-image" />
           <label for="movie-title">Movie Title:</label>
           <input
             type="text"
             name="movie-title"
             id="movie-title"
-            placeholder="movie title here"
+
           />
           <label for="release-year">Release Year:</label>
           <input
             type="text"
             name="release-year"
             id="release-year"
-            placeholder="release year here"
+
           />
           <label for="movie-rating">Movie rating:</label>
           <input
             type="text"
             name="movie-rating"
             id="movie-rating"
-            placeholder="rating here"
+
           />
           <input type="submit" name="submit" id="submit">
         </form>
 
         <form id="new-comment-form" action="" method="post">
           <label for="new-comment">Comment on this film!</label>
-          <textarea name="" id="new-comment" cols="30" rows="10"></textarea>
+          <textarea name="submit-comment" id="new-comment" cols="30" rows="10"></textarea>
+          <input type="submit" name="submit-comment" id="submit-comment" />
         </form>
       </main>
         <section id="user-favorites">
-          <h2>USER FAVORITES</h2>
-          <img
-            src="./movie-images/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
-            alt=""
-          />
+          <h2>USER FAV'S</h2>
+
         </section>
       <footer>
-        <h3>Sources!!!!!</h3>
+        <a  id="footer-link" href="https://www.imdb.com/">IMDB</a>
       </footer>
     </div>
   </body>
