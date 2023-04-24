@@ -14,9 +14,8 @@
     <div class="container">
       <header class="smash-or-trash">
         <h1>SMASH OR TRASH</h1>
-        <!-- <img src="./movie-images/IMG_1383.jpg" /> -->
       </header>
-      <section class="top-5">
+      <section id="top-5">
         <h2>TOP 5 MOVIES</h2>
         <img
           src="./movie-images/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
@@ -32,7 +31,7 @@
           <img
             src="./movie-images/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg"
             alt=""
-            id="movie-details-figure"
+            id="movie-details-img"
           />
           <div id="list-and-buttons">
             <ul id="figure-list">
@@ -42,13 +41,13 @@
               <li>Sales:</li>
             </ul>
             <div class="buttons">
-              <button id="smash"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke= "" class="smash-icon">
+              <button id="smash"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke= "" id="smash-icon">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
               </svg>
               </button>
               <span>0</span>
-              <button id="trash"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="" class="trash-icon">
+              <button id="trash"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="" id="trash-icon">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
               </svg>
               </button>
@@ -56,35 +55,35 @@
             </div>
           </div>
         </div>
-        <div id="forms">
-        <form id="new-movie" action="" method="post">
+        <div class="forms">
+        <form id="new-movie-form" action="" method="post">
           <label for="user-name">User Name:</label>
           <input
             type="text"
-            name=""
+            name="user-name"
             id="user-name"
             placeholder="user name here"
           />
           <label for="movie-image">Movie Image:</label>
           <input type="text" name="" id="movie-image" placeholder="url here" />
-          <label for="movie-title">Title:</label>
+          <label for="movie-title">Movie Title:</label>
           <input
             type="text"
-            name=""
+            name="movie-title"
             id="movie-title"
             placeholder="movie title here"
           />
           <label for="release-year">Release Year:</label>
           <input
             type="text"
-            name=""
+            name="release-year"
             id="release-year"
             placeholder="release year here"
           />
           <label for="movie-rating">Movie rating:</label>
           <input
             type="text"
-            name=""
+            name="movie-rating"
             id="movie-rating"
             placeholder="rating here"
           />
@@ -96,7 +95,7 @@
           <textarea name="" id="new-comment" cols="30" rows="10"></textarea>
         </form>
       </main>
-        <section class="user-favorites">
+        <section id="user-favorites">
           <h2>USER FAVORITES</h2>
           <img
             src="./movie-images/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"

@@ -1,9 +1,11 @@
+/* GLOBAL SELECTOR -------------------------------------------------------- */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* LARGE LAYOUT COMPONENTS ------------------------------------------------- */
 body {
   color: #2563eb;
   background-color: #0c0a09;
@@ -27,7 +29,8 @@ header {
   column-gap: 24px;
 }
 
-.top-5 {
+/* TOP 5 & USER FAVORITES SECTIONS ----------------------------------------- */
+#top-5 {
   grid-column: 1;
   grid-row: 2;
   display: flex;
@@ -35,46 +38,15 @@ header {
   align-items: center;
 }
 
-.user-favorites {
+#user-favorites {
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 1.2;
 }
 
-form {
-  margin-top: 20px;
-  scroll-padding-inline-start: 40px;
-}
-
-#new-movie label {
-  display: inline-block;
-  width: 150px;
-  text-align: right;
-  letter-spacing: 1.5px;
-  font-weight: 500;
-}
-
-#new-movie input {
-  width: 250px;
-  margin-bottom: 10px;
-}
-
-h1 {
-  font-weight: 800;
-  font-size: 64px;
-  text-shadow: 8px 6px 12px;
-}
-
-h2 {
-  margin-bottom: 24px;
-  text-shadow: 8px 6px 12px;
-  font-weight: 800;
-  text-align: center;
-}
-
-.top-5 img,
-.user-favorites img {
+#top-5 img,
+#user-favorites img {
   display: block;
   width: 140px;
   /* box-shadow: 12px 12px 12px; */
@@ -82,20 +54,22 @@ h2 {
   margin-bottom: 10px;
 }
 
-.top-5 img:hover,
-.user-favorites img:hover {
+#top-5 img:hover,
+#user-favorites img:hover {
   scale: 1.05;
 }
 
-img#movie-details-figure {
-  width: 400px;
-  grid-column: 1;
-}
-
+/* MOVIE DETAILS SECTION ------------------------------------------------ */
 #movie-details {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 24px;
+}
+
+#movie-details-img {
+  width: 400px;
+  grid-column: 1;
+  margin-bottom: 32px;
 }
 
 #list-and-buttons {
@@ -114,12 +88,6 @@ img#movie-details-figure {
   margin-left: 50px;
 }
 
-#forms {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  column-gap: 20px;
-}
-
 #smash,
 #trash {
   background: none;
@@ -132,12 +100,12 @@ img#movie-details-figure {
   scale: 1.1;
 }
 
-.smash-icon {
+#smash-icon {
   width: 30px;
   stroke: orangered;
 }
 
-.trash-icon {
+#trash-icon {
   width: 30px;
   stroke: #64748b;
 }
@@ -162,8 +130,67 @@ li:last-child {
   margin-bottom: 0;
 }
 
+/* FORMS ------------------------------------------------------------------ */
+.forms {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 20px;
+}
+#new-movie-form,
+#new-comment-form {
+  margin-top: 20px;
+}
+
+#new-movie-form label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+
+#new-movie-form input {
+  width: 250px;
+  margin-bottom: 10px;
+}
+#new-movie-form input#submit {
+  border: none;
+  padding: 12px 24px;
+  background: #2563eb;
+  border-radius: 100px;
+  color: #e7e5e4;
+  font-family: inherit;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 150px;
+  margin-left: 250px;
+}
+#new-movie-form input#submit:hover {
+  background: #3b82f6;
+}
+
+/* FOOTER ----------------------------------------------------------------- */
 footer {
   font-size: 18px;
   grid-row: 3;
   grid-column: 1 / -1;
+}
+
+/* ELEMENT SELECTORS ------------------------------------------------------- */
+h1 {
+  font-weight: 800;
+  font-size: 64px;
+  text-shadow: 8px 6px 12px;
+}
+
+h2 {
+  margin-bottom: 24px;
+  text-shadow: 8px 6px 12px;
+  font-weight: 800;
+  text-align: center;
+}
+
+h4 {
+  font-size: 12px;
 }
