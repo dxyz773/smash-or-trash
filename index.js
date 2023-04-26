@@ -51,7 +51,7 @@ const movieDetails = (m) => {
     imageDetail.src = m.image
     movieTitles.textContent = m.title
     movieReleaseYear.textContent = m.year
-    movieRating.textContent = m.rating
+    movieRating.textContent = `${m.rating}/10`
     movieSales.textContent = m.sales
 }
 
@@ -89,7 +89,7 @@ const newMovieDetails = (nm) => {
     newUserName.textContent = `@${nm.name}`
     movieTitles.textContent = nm.title
     movieReleaseYear.textContent = nm.year
-    movieRating.textContent = nm.rating
+    movieRating.textContent = `${nm.rating}/10`
     movieSales.textContent = ''
 }
 
