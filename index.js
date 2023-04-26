@@ -47,7 +47,7 @@ fetch("http://localhost:3000/movies")
             detailImg.src= movie.image
             detailTitle.textContent= movie.title
             detailYear.textContent= movie.year
-            detailRating.textContent= movie.rating
+            detailRating.textContent= `${movie.rating}/10`
             detailSales.textContent= movie.sales
 
         })
@@ -61,7 +61,7 @@ fetch("http://localhost:3000/movies/1")
         detailImg.src= movie.image
         detailTitle.textContent= movie.title
         detailYear.textContent= movie.year
-        detailRating.textContent= movie.rating
+        detailRating.textContent= `${movie.rating}/10`
         detailSales.textContent= movie.sales
     
 })
@@ -101,7 +101,7 @@ function userFaves(newMovie){
             detailImg.src= newMovie.image
             detailTitle.textContent= newMovie.title
             detailYear.textContent= newMovie.year
-            detailRating.textContent= newMovie.rating
+            detailRating.textContent= `${newMovie.rating}/10`
             detailSales.textContent= ""
     
 
@@ -127,7 +127,20 @@ trashBtn.addEventListener("dblclick", (e) => {
 
 })
 
+const newCommentForm= document.querySelector("#new-comment-form")
+//const newCommentUl= document.querySelector("#new-comment")
+const newCommentDetails= document.querySelector("#new-comment-details")
 
+newCommentForm.addEventListener("submit", (e) => {
+    e.preventDefault()
+    let newCommentLi = document.createElement("li")
+    newCommentLi.textContent= e.target["new-comment"].value
+    newCommentDetails.appendChild(newCommentLi)
+    e.target["new-comment"].value= ""
+    
+
+
+})
 
 
 
