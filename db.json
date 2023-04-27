@@ -1,44 +1,59 @@
 {
-    "movies": [
-        {
-            "id": 1,
-            "title": "Avatar",
-            "image": "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg",
-            "year": 2009,
-            "sales": "$2,923,706,026",
-            "rating": 7.9
-        },
-        {
-            "id": 2,
-            "title": "Avengers: Endgame",
-            "image": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
-            "year": 2019,
-            "sales": "$2,799,439,100",
-            "rating": 8.4
-        },
-        {
-            "id": 3,
-            "title": "Avatar: The Way of Water",
-            "image": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_.jpg",
-            "year": 2022,
-            "sales": "$2,316,962,130",
-            "rating": 7.7
-        },
-        {
-            "id": 4,
-            "title": "Titanic",
-            "image": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
-            "year": 1997,
-            "sales": "$2,263,291,560",
-            "rating": 7.9
-        },
-        {
-            "id": 5,
-            "title": "Star Wars: Episode VII - The Force Awakens",
-            "image": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg",
-            "year": 2015,
-            "sales": "$2,071,310,218",
-            "rating": 7.8
-        }
-    ]
+  "movies": [
+    {
+      "id": 1,
+      "title": "Avatar",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg",
+      "year": 2009,
+      "sales": "$2,923,706,026",
+      "rating": 7.9,
+      "smash": 0,
+      "trash": 0,
+      "comments": []
+    },
+    {
+      "id": 2,
+      "title": "Avengers: Endgame",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
+      "year": 2019,
+      "sales": "$2,799,439,100",
+      "rating": 8.4,
+      "smash": 0,
+      "trash": 0,
+      "comments": []
+    },
+    {
+      "id": 3,
+      "title": "Avatar: The Way of Water",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_.jpg",
+      "year": 2022,
+      "sales": "$2,316,962,130",
+      "rating": 7.7,
+      "smash": 0,
+      "trash": 0,
+      "comments": []
+    },
+    {
+      "id": 4,
+      "title": "Titanic",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+      "year": 1997,
+      "sales": "$2,263,291,560",
+      "rating": 7.9,
+      "smash": 0,
+      "trash": 0,
+      "comments": []
+    },
+    {
+      "id": 5,
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_.jpg",
+      "year": 2015,
+      "sales": "$2,071,310,218",
+      "rating": 7.8,
+      "smash": 0,
+      "trash": 0,
+      "comments": []
+    }
+  ]
 }
