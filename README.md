@@ -20,4 +20,16 @@
 
 -Stretch goal: Adds a comment to a movie //PATCH
 
-Wire Frame <img src="./movie-images/IMG_0967%20(2).jpg">
+Wire Frame 
+![smash-or-trash](https://github.com/dxyz773/smash-or-trash/assets/122405969/bd2a22e4-07b3-48ee-aafe-13b370087d54)
+
+## Instructions
+Open two terminals and input commands below:
+```
+#frontend
+$json-server --watch db.json
+```
+
+#frontend
+$open index.html
+```
