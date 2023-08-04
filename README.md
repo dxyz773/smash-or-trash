@@ -27,9 +27,10 @@ Wire Frame
 Open two terminals and input commands below:
 ```
 #frontend
-$json-server --watch db.json
+$ json-server --watch db.json
 ```
+
 ```
 #frontend
-$open index.html
+$ open index.html
 ```
