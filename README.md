@@ -29,7 +29,7 @@ Open two terminals and input commands below:
 #frontend
 $json-server --watch db.json
 ```
-
+```
 #frontend
 $open index.html
 ```
